@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="17px" viewBox="0 0 33 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Hamburger icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Peperoncino" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Peperoncino---Homepage--Tablet-768px" transform="translate(-703.000000, -20.000000)" fill="#000000">
+            <g id="Top">
+                <path d="M703,20 L736,20 L736,23 L703,23 L703,20 Z M703,27 L736,27 L736,30 L703,30 L703,27 Z M703,34 L736,34 L736,37 L703,37 L703,34 Z" id="Hamburger-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

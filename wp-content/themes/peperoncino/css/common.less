@@ -1,0 +1,316 @@
+// main: ./style.less	
+@import 'mixins.less';
+@import 'variables.less';
+
+
+.more-articles-btn {
+	display: block;
+	width: 550px; 
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	color: rgba(117, 131, 162, 1);
+	text-align: center;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 20px 0px rgba(117, 131, 162, 0.25);
+	border-radius: 8px;
+
+	&:hover {
+		background: @red;
+		box-shadow: 0px 0px 20px 0px rgba(227, 6, 19, 0.25);
+		color: @white;
+	}
+	&.btn-loading {
+		box-shadow: 0px 0px 20px 0px rgb(227, 6, 19);
+		background: @white;
+		color: rgb(227,6,19);
+		position: relative;
+		z-index: 10;
+		padding-right: 69px;
+		.loading-container {
+			display: inline-block;
+			width: 43px;
+			height: 43px;
+			text-align: center;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: -26%;
+			left: 0;
+			margin: auto;
+		
+
+			.cssload-speeding-wheel {
+				display: inline-block;
+				width: 43px;
+				height: 43px;
+				margin: 0 auto;
+				border: 5px solid rgb(227,6,19);
+				border-radius: 50%;
+				border-left-color: transparent;
+				border-right-color: transparent;
+				animation: cssload-spin 575ms infinite linear;
+					-o-animation: cssload-spin 575ms infinite linear;
+					-ms-animation: cssload-spin 575ms infinite linear;
+					-webkit-animation: cssload-spin 575ms infinite linear;
+					-moz-animation: cssload-spin 575ms infinite linear;
+			}
+
+
+
+			@keyframes cssload-spin {
+				100%{ transform: rotate(360deg); transform: rotate(360deg); }
+			}
+
+			@-o-keyframes cssload-spin {
+				100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+			}
+
+			@-ms-keyframes cssload-spin {
+				100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+			}
+
+			@-webkit-keyframes cssload-spin {
+				100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+			}
+
+			@-moz-keyframes cssload-spin {
+				100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+			}
+		}
+	}
+
+
+	.mobile ({
+		width: 100%;
+	});
+}
+
+
+.block-title {
+	color: @black;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 36px;
+	margin-bottom: 20px;
+
+	.mobile({
+		font-size: 36px;
+		margin-bottom: 10px;
+	});
+}
+
+.subtitle {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 16px;
+	color: rgba(117, 131, 162, 1);
+	margin-bottom: 60px;
+	.mobile({
+		margin-bottom: 20px;
+	});
+
+}
+.bolder-product-name {
+	font-weight: 700;
+}
+
+.block-left {
+	float: left;
+	width: 48.5%;
+
+	.r750({
+		width: 100%;
+	});
+	.r580({
+		width: 100%;
+	});
+	.r320({
+		width: 100%;
+	})
+}
+.block-right {
+	float: right;
+	width: 48.5%;
+
+	.r750({
+		width: 100%;
+	});
+	.r580 ({
+		width: 100%;
+	});
+	.r320({
+		width: 100%;
+	})
+}
+
+
+.input {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	background-color: @white;
+	height: 40px;
+	font-weight: 800;
+	font-family: @font-family;
+	padding: 0 18px;
+	margin-bottom: 15px;
+	border: 1px solid #e1e1e1;
+	font-variant: normal;
+	outline: none;
+	resize: none;
+	.placeholder(@color: #9e9e9e, @size: 16px, @fontStyle: normal, @fontWeight: 400, @fontFamily: @font-family);
+	&.active {
+		border: 1px solid #b1b1b1;;
+	}
+	&:hover {
+		border: 1px solid #b1b1b1;
+	}
+		&.field-error {
+		box-shadow: 0 0 14px #ff2e26;
+	}
+}
+
+.to-top {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	background-color: #09727e;
+	opacity: 0.6;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	top: 70px;
+	right: 0;
+	img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.main-slider-controls {
+	display: block;
+	margin-left: 340px;
+	line-height: normal;
+	position: relative;
+	a {
+		display: inline-block;
+		font-size: 27px;
+		text-decoration: none;
+		position: absolute;
+		bottom: 0;
+		color: @black;
+		&:hover {
+			color: #9e9e9e;
+		}
+	}
+	.prev {
+		left: 0;
+	}
+	.next {
+		right: 0;
+	}
+}
+
+.slider-brands-controls {
+	display: block;
+	position: relative;
+	a {
+		display: inline-block;
+		color: #d8d8d8;
+		text-decoration: none;
+		text-align: center;
+		width: 30px;
+		height: 30px;
+		font-size: 27px;
+		border: 1px solid #d8d8d8;
+		position: absolute;
+		bottom: 32px;
+		margin: auto;
+		&:hover {
+			background: @white;
+			color: @black;
+		}
+	}
+	.prev {
+		left: -38px;
+	}
+	.next {
+		right: -38px;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.js-tab {
+ display: none;
+
+ &.active {
+	display: block;
+	background-color: transparent;
+ }
+}
+
+// .slider-wrp{
+// 	margin-bottom: 95px;
+	
+// 	.slider {
+// 		.clearfix;
+
+// 		.slide {
+// 			float: left;
+// 			width: 270px;
+// 			height: 350px;
+// 			text-decoration: none;
+// 			position: relative;
+
+// 			&:after {
+// 				content: '';
+// 				opacity: 0; 		  	
+// 				background: rgba(237, 20, 91, 0.8) url(../images/icon-hover.png) no-repeat center;
+// 				.transition;
+// 				position: absolute;
+// 				top: 0;
+// 				bottom: 0;
+// 				left: 0;
+// 				right: 0;
+// 			}
+// 			&:hover:after {
+// 				opacity: 1;
+// 			}
+
+// 			img {
+// 				width: 100%;
+// 				height: 100%;
+// 			}
+// 		}
+// 	}
+// }
+
+// .slider-controls {
+// 	position: relative;
+
+// 	.prev, .next {
+// 		display: inline-block;
+// 		width: 70px;
+// 		height: 60px;
+// 		background: @pink url(../images/arrow-slider.png) no-repeat center;
+// 		position: absolute;
+// 		right: 90px;
+// 		top: -123px;
+// 		z-index: 20;
+// 	}
+
+// 	.next {
+// 		background: @pink url(../images/arrow-slider2.png) no-repeat center;
+// 		right: 0;
+// 	}
+// 	.prev:hover {
+// 		background: #c9124e url(../images/arrow-slider.png) no-repeat center;
+// 	}
+// 	.next:hover {
+// 		background: #c9124e url(../images/arrow-slider2.png) no-repeat center;
+// 	}
+// }

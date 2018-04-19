@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_content strategy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Peperoncino" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1.-Peperoncino---Homepage" transform="translate(-1080.000000, -1175.000000)" stroke="#E30613" stroke-width="2">
+            <g id="What-we-can-do" transform="translate(390.000000, 980.000000)">
+                <g id="3" transform="translate(589.000000, 132.000000)">
+                    <g id="icon_content-strategy" transform="translate(102.000000, 64.000000)">
+                        <polygon id="Stroke-1" points="7.44827586 54 35.3793103 54 35.3793103 14.8965517 7.44827586 14.8965517"></polygon>
+                        <path d="M7.44827586,37.2413793 L0,37.2413793 L0,7.44827586 C0,3.55655172 3.15248276,0 7.0442069,0 C10.934069,0 13.9655172,3.55655172 13.9655172,7.44827586 C13.9655172,11.34 11.3381379,14.8965517 7.44827586,14.8965517 L7.44827586,9.31034483 L13.7495172,9.31034483" id="Stroke-3"></path>
+                        <path d="M35.3793103,14.8965517 C39.2691724,14.8965517 42.8275862,11.34 42.8275862,7.44827586 C42.8275862,3.55655172 39.2691724,0 35.3793103,0 L7.44827586,0" id="Stroke-4"></path>
+                        <path d="M21.4137931,24.2068966 L30.7241379,24.2068966" id="Stroke-5"></path>
+                        <path d="M21.4137931,33.5172414 L30.7241379,33.5172414" id="Stroke-6"></path>
+                        <path d="M21.4137931,42.8275862 L30.7241379,42.8275862" id="Stroke-7"></path>
+                        <polyline id="Stroke-8" points="12.1034483 22.3448276 13.0344828 23.2758621 17.6896552 18.6206897"></polyline>
+                        <polyline id="Stroke-9" points="12.1034483 31.6551724 13.0344828 32.5862069 17.6896552 27.9310345"></polyline>
+                        <path d="M54,49.3448276 C54,52.137931 52.137931,54 50.2758621,54 C48.33,54 46.5517241,52.2198621 46.5517241,50.2758621 L46.5517241,15.8275862 C46.5517241,14.8965517 48.33,13.0344828 50.2758621,13.0344828 C52.2217241,13.0344828 54,14.8965517 54,15.8275862 L54,49.3448276 Z" id="Stroke-10"></path>
+                        <path d="M46.5517241,48.4137931 L54,48.4137931" id="Stroke-11"></path>
+                        <path d="M46.5517241,33.5172414 L54,33.5172414" id="Stroke-12"></path>
+                        <path d="M42.8275862,36.3913448 L42.8275862,19.5526552 C42.8275862,16.7595517 44.6896552,15.8285172 46.5517241,15.8285172" id="Stroke-13"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

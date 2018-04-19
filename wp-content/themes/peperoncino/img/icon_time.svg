@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="21px" viewBox="0 0 18 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_time</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Peperoncino" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Peperoncino---What-we-think" transform="translate(-1013.000000, -221.000000)" fill="#E30613" fill-rule="nonzero">
+            <g id="Content" transform="translate(390.000000, 124.000000)">
+                <g id="1" transform="translate(0.000000, 80.000000)">
+                    <g id="Time" transform="translate(613.000000, 10.000000)">
+                        <g id="icon_time" transform="translate(10.000000, 7.000000)">
+                            <path d="M9,19 C5.13400675,19 2,15.8659932 2,12 C2,8.13400675 5.13400675,5 9,5 C12.8659932,5 16,8.13400675 16,12 C16,15.8659932 12.8659932,19 9,19 Z M16.03,6.39 L17.45,4.97 C17,4.46 16.55,4 16.04,3.56 L14.62,5 C13.07,3.74 11.12,3 9,3 C4.02943725,3 -3.94430453e-31,7.02943725 -8.8817842e-16,12 C-3.94430453e-31,16.9705627 4.02943725,21 9,21 C14,21 18,16.97 18,12 C18,9.88 17.26,7.93 16.03,6.39 Z M8,13 L10,13 L10,7 L8,7 L8,13 Z M12,0 L6,0 L6,2 L12,2 L12,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
